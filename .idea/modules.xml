@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tensorflow-demo.iml" filepath="$PROJECT_DIR$/.idea/tensorflow-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tensorflow2.0-tutorial.iml" filepath="$PROJECT_DIR$/.idea/tensorflow2.0-tutorial.iml" />
     </modules>
   </component>
 </project>
