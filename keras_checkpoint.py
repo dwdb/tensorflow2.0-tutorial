@@ -1,6 +1,6 @@
 import tensorflow as tf
-from tensorflow.keras.datasets import mnist
 from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.datasets import mnist
 from tensorflow.python import keras
 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
@@ -58,5 +58,5 @@ new_model = keras.models.load_model('model/h5/my_model.h5')
 
 # 显示网络结构
 new_model.summary()
-loss, acc = new_model.evaluate(test_images,  test_labels, verbose=2)
-print("Restored model, accuracy: {:5.2f}%".format(100*acc))
+loss, acc = new_model.evaluate(test_images, test_labels, verbose=2)
+print("Restored model, accuracy: {:5.2f}%".format(100 * acc))
